@@ -22,6 +22,7 @@ const App = () => {
       setTotalPages(Math.ceil(response.data.length / recordsPerPage));
 
     } catch (error) {
+      alert('failed to fetch data');
       console.error("Error fetching data", error);
     }
     setLoading(false);
