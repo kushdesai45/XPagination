@@ -1,0 +1,21 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnContainer{
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  border: none;
+}
+
+th,td{
+  border: none;
+}
+
